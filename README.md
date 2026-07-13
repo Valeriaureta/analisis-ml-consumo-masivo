@@ -1,5 +1,4 @@
 # analisis-ml-consumo-masivo
-# Problema identificado
 
 Una empresa peruana de consumo masivo buscaba entender la caída comercial de una familia prioritaria durante el periodo 2024-2025.
 
