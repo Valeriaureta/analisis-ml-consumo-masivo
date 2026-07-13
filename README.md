@@ -4,7 +4,7 @@ Una empresa peruana de consumo masivo buscaba entender la caída comercial de un
 
 El problema no podía explicarse solo observando la venta total. Era necesario analizar ventas históricas, lanzamientos comerciales y variables externas para identificar qué zonas, clientes y SKUs concentraban la pérdida, y qué señales podían anticipar oportunidades de recuperación. Por ello, el proyecto buscó pasar de un diagnóstico descriptivo a una herramienta de priorización comercial, construyendo un modelo para identificar combinaciones `SKU-zona` con mayor probabilidad de alcanzar ventas altas en el siguiente mes.
 
-Nota: Por motivos de confidencialidad, el nombre de la empresa, las familias de producto y los códigos de SKU fueron anonimizados. Los nombres utilizados en este repositorio son referenciales y mantienen la estructura del análisis original sin exponer información sensible del negocio.
+**Nota**: Por motivos de confidencialidad, el nombre de la empresa, las familias de producto y los códigos de SKU fueron anonimizados. Los nombres utilizados en este repositorio son referenciales y mantienen la estructura del análisis original sin exponer información sensible del negocio.
 
 ---
 
