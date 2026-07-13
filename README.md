@@ -92,24 +92,6 @@ Además del EDA, se aplicaron pruebas estadísticas para respaldar las principal
 
 ---
 
-# Decisión sobre variables macroeconómicas
-
-Se realizó un EDA de variables macroeconómicas asociadas a tipo de cambio, inflación, precios y commodities.
-
-Estas variables se mantuvieron como análisis complementario y no fueron incorporadas al modelo final porque:
-
-* la base macroeconómica solo cubría hasta mayo de 2025, mientras que la base de ventas llegaba hasta diciembre de 2025;
-* incluirlas habría implicado perder meses relevantes o imputar valores futuros;
-* la cantidad de variables macro frente a pocos periodos mensuales podía introducir ruido y riesgo de sobreajuste.
-
-Por ello, el modelo final se construyó con variables más accionables para la operación comercial:
-
-```text
-ventas históricas + comportamiento SKU-zona + variables de lanzamiento
-```
-
----
-
 # Definición de la variable objetivo
 
 Para el modelamiento, se definió una venta alta usando el criterio de rango intercuartílico de Tukey. Este criterio permitió identificar ventas inusualmente altas en relación con el comportamiento histórico de cada combinación `SKU-zona`.
